@@ -28,6 +28,10 @@ nav {
   font-size: 20px;
 }
 
+.logo p {
+  font-size: 10px;
+}
+
 /*Classe adicionada com jQuery*/
 .menu-fixed {
   position: fixed;
@@ -80,17 +84,29 @@ nav {
 
 /*============ Botões estilizados ============*/
 .content-header {
+  background-image: url(img/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 50vh;
-  padding: 2% 2%;
+  padding-top: 100px;
+  padding-bottom: 250px;
 }
 
-.content-header h1 {
+.content-header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px #000000;
+}
+
+.content-header h3 {
   font-weight: bold;
   font-family: 'Exo 2', sans-serif;
   text-transform: uppercase;
+  color: #E8E8E8;
 }
 
 button {
@@ -99,11 +115,11 @@ button {
   width: 220px;
   margin: 0 30px;
   font-size: 20px;
-  color: #90EE90;
-  background: #ebf5fc;
+  color: #2E8B57;
+  background: #E8E8E8;
   outline: none;
   border: none;
-  border-radius: 1px;
+  border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -112,7 +128,7 @@ button {
 }
 
 .btn-1 {
-  box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+  box-shadow: -6px -6px 10px #696969,
               6px 6px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -125,12 +141,12 @@ button {
 .btn-1:focus {
   font-size: 15px;
   transition: 0.3s;
-  box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.8),
+  box-shadow: inset -4px -4px 8px #696969,
               inset 8px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .btn-2 {
-  box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+  box-shadow: -6px -6px 10px #696969,
               6px 6px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -149,12 +165,6 @@ button {
 /*============ Botões estilizados ============*/
 
 
-/*===== RESPONSIVO ====*/
-/*Responsividade menu*/
-
-
-
-/*======================= Menu responsivo com Js ===================*/
 
 
 
