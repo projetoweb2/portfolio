@@ -21,6 +21,19 @@ nav {
   padding: 2% 2%;
 }
 
+.fale_cmg {
+    position: fixed;
+    top: 82%;
+    right: 4%;
+    padding: 5px;
+    z-index: 10000000;
+}
+
+.fale_cmg:hover {
+
+
+}
+
 .logo {
   color: #000000;
   text-transform: uppercase;
@@ -106,18 +119,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 50vh;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  min-height: 100vh;
+  
 }
 
-.content-header img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  box-shadow: 1px 1px 1px #000000;
-
-}
 
 .content-header h4 {
   font-weight: bold;
@@ -128,7 +133,7 @@ nav {
 
 button {
   font-family: 'Exo 2', sans-serif;
-  height: 50px;
+  height: 40px;
   width: 220px;
   margin: 0 30px;
   font-size: 15px;
@@ -188,13 +193,24 @@ button {
 .about-me {
   top: 0;
   background: #000000;
-  padding: 6% 2%;
+  padding: 6% 6%;
+  padding-top: 100px;
+  padding-bottom: 100px;
   color: #CFCFCF;
   font-family: 'Exo 2', sans-serif;
 }
 
-.about-me h1 { text-transform: uppercase; }
-.about-me h4 { text-transform: uppercase; }
+ h2 { 
+  text-transform: uppercase;
+  font-family: 'Exo 2', sans-serif;
+
+}
+
+ h5 {
+  text-transform: uppercase;
+  font-family: 'Exo 2', sans-serif;
+
+}
 
 .about-me img {
   width: 300px;
@@ -204,10 +220,20 @@ button {
 }
 
 .about-me img:hover {
-  opacity: 90%;
+  
 }
 
+.services {
+  padding: 6% 6%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #696969;
+  color: #CFCFCF;
+}
 
+.services img {
+  border-radius: 50%;
+}
 
 
 
