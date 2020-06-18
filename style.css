@@ -237,13 +237,42 @@ button {
   padding-bottom: 5px;
   box-shadow: 5px 5px 5px #000;
   margin-bottom: 15px;
-  margin-top: 10px;
+  margin-top: 15px;
+  cursor: pointer;
 }
 
-.services img:hover {
-  height: 110px;
-  width: 110px;
+.portfolio {
+  padding: 6% 6%;
+  background: #000000;
+  font-family: 'Exo 2', sans-serif;
+  color: #CFCFCF;
+
+}
+
+.portfolio_01 {
+  background: #CFCFCF;
+  padding: 6% 6%;
+  min-height: 75vh
+
+}
+
+.portfolio_01:hover {
+  background: #008B8B;
   transition: 0.3s;
+
+}
+
+.portfolio_02 {
+  background: #CFCFCF;
+  padding: 6% 6%;
+  min-height: 75vh
+
+}
+
+.portfolio_02:hover {
+  background: #008B8B;
+  transition: 0.3s;
+
 }
 
 
