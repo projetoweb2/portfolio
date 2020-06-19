@@ -69,3 +69,20 @@
   transform: rotate(45deg) translate(-5px, -6px);
 
 }
+
+/* Contact Form Responsive */
+
+@media screen and (max-width: 600px){
+  .contact-form{
+    flex-direction: column;
+  }
+
+  .msg textarea{
+    height: 80px;
+  }
+
+  .input-fields,
+  .msg{
+    width: 100%;
+  }
+}

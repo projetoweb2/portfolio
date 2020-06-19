@@ -170,7 +170,9 @@ button {
 }
 
 .btn-2 {
-  box-shadow: 6px 6px 0px #696969,
+  color: #FFFFFF;
+  background: #008B8B;
+  box-shadow: 6px 6px 6px #696969,
               6px 6px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -185,8 +187,8 @@ button {
 .btn-2:focus {
    font-size: 15px;
    transition: 0.3s;
-  box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.8),
-              inset 8px 8px 16px rgba(0, 0, 0, 0.2);
+   box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.8),
+               inset 8px 8px 16px rgba(0, 0, 0, 0.2);
 } 
 /*============ Botões estilizados ============*/
 
@@ -203,12 +205,21 @@ button {
  h2 { 
   text-transform: uppercase;
   font-family: 'Exo 2', sans-serif;
+  color: #008B8B;
 
 }
 
  h5 {
   text-transform: uppercase;
   font-family: 'Exo 2', sans-serif;
+
+}
+
+.hr {  
+  height: 3px;
+  background: #008B8B;
+  border-radius: 10px;
+  width: 25%;
 
 }
 
@@ -256,12 +267,6 @@ button {
 
 }
 
-.portfolio_01:hover {
-  background: #008B8B;
-  transition: 0.3s;
-
-}
-
 .portfolio_02 {
   background: #CFCFCF;
   padding: 6% 6%;
@@ -269,12 +274,83 @@ button {
 
 }
 
-.portfolio_02:hover {
-  background: #008B8B;
-  transition: 0.3s;
+.contact {
+  background-image: url(img/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Exo 2', sans-serif;
 
 }
 
+.wrapper {
+  top: 50%;
+  width: 100%;
+  padding: 2% 2%;
 
+}
 
+.contact-form {
+  max-width: 850px;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.8);
+  padding: 4% 4%;
+  border-radius: 0px;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0,0,0,0.13);
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 10%;
+
+}
+
+.input-fields, 
+.msg{
+  width: 48%;
+}
+
+.input-fields .input, 
+.msg textarea {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px;
+  color: #c5ecfd;
+  width: 100%;
+
+}
+
+.msg textarea{
+  height: 212px;
+
+}
+
+::-webkit-input-placeholder{
+  color: #c5ecfd;
+}
+
+::-moz-input-placeholder{
+  color: #c5ecfd;
+}
+
+::-ms-input-placeholder{
+  color: #c5ecfd;
+}
+
+.btn {
+  background: #008B8B;
+  text-align: center;
+  align-items: center;
+  border-radius: 0px;
+  color: #fff;
+  text-transform: uppercase;
+}
 
